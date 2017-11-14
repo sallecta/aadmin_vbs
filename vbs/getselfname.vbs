@@ -4,4 +4,4 @@ Dim fso
 Set fso = CreateObject("Scripting.FileSystemObject")
 Dim fullpath
 fullpath = fso.GetAbsolutePathName("..\..")
-WScript.Echo "fullpath:    " & fullpath & ", scriptName: " & scriptName
+WScript.Echo "fullpath:    " & fullpath & ", scriptName: " & scriptName & vbCrLf & "fullname:    " & fullpath &  "\" & scriptName
